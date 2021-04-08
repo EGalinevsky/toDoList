@@ -21,7 +21,8 @@ export const Home = () => {
       <hr />
       {loading ? <Loader /> : <Notes notes={notes} onRemove={removeNote} />}
       {/* <LernContainer></LernContainer>  Уроки из книги */}
-      <ReactLearnVladilenContainer/>
+      {/* <ReactLearnVladilenContainer/> */} 
+      
     </Fragment>  
   );
 };

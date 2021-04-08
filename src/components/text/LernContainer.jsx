@@ -50,7 +50,7 @@ import Products from "./products";
 //   }
 // }
 
-class LernContainer extends React.Component {
+class  LernContainer extends React.Component {
   constructor() {
     super();
     this.state = {
