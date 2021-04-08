@@ -1,6 +1,7 @@
 import React, { Fragment, useContext, useEffect } from "react";
 import { FirebaseContext } from "../context/fireBasa/firebaseContext";
 import { Form } from "./Form/Form";
+import { Hooks1, hooks1 } from "./Hooks/useState/useStateHooks";
 import { Loader } from "./Loader";
 import { Notes } from "./Notes/Notes";
 import LernContainer from "./text/LernContainer";
@@ -22,7 +23,7 @@ export const Home = () => {
       {loading ? <Loader /> : <Notes notes={notes} onRemove={removeNote} />}
       {/* <LernContainer></LernContainer>  Уроки из книги */}
       {/* <ReactLearnVladilenContainer/> */} 
-      
+      <Hooks1 />
     </Fragment>  
   );
 };
